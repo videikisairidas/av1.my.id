@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [react()],
 //   root: 'src',
   build: {
-      outDir: '../public'
+      outDir: './public'
   }
 })
 
