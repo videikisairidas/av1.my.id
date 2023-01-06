@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>v0.0.6test1</div>
+      <div>v0.0.6test2</div>
       <div>
           <ul>
               <li><a href="react.airidasvideikis.me">React </a></li>
