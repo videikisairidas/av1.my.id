@@ -7,20 +7,21 @@ function App() {
 
   return (
     <div className="App">
-        <div>
-            <ul>
-                <li><a href="react.airidasvideikis.me">React </a></li>
-                <li><a href="">Vue </a></li>
-                <li><a href="">Angular </a></li>
-                <li><a href="">Express JS </a></li>
-                <li><a href="">testing cron job </a></li>
-            </ul>
-            <ul>
-                <li>
-                    </li>
+      <div>v0.0.4</div>
+      <div>
+          <ul>
+              <li><a href="react.airidasvideikis.me">React </a></li>
+              <li><a href="">Vue </a></li>
+              <li><a href="">Angular </a></li>
+              <li><a href="">Express JS </a></li>
+              <li><a href="">testing cron job </a></li>
+          </ul>
+          <ul>
+              <li>
+                  </li>
 
-            </ul>
-        </div>
+          </ul>
+      </div>
     </div>
   )
 }
