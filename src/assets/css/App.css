@@ -18,7 +18,7 @@ main {
 }
 
 .Header {
-  background: rgb(73, 116, 255);
+  background: #ff5858;
   color: white;
   display: flex;
   justify-content: space-between;
