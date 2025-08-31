@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "title": "Ai Art Competition Project",
+    "status": "In Progress",
+    "info" : {
+        "Laravel Views Admin Panel": "https://github.com/username/project-alpha",
+        "Laravel Users Web" : "2222",
+        "Mobile App": "",
+        "Laravel API": ""
+    },
+    "description": " et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleife"
+  },
+  {
+    "id": 2,
+    "title": "Project Beta",
+    "info" : {
+        "Laravel Views Admin Panel": "https://github.com/username/project-alpha",
+        "Laravel Users Web" : "2222",
+        "Mobile App": "",
+        "Laravel API": ""
+    },
+    "description": "A web app for productivity."
+  },
+  {
+    "id": 3,
+    "title": "Project Gamma",
+    "info" : {
+        "Laravel Views Admin Panel": "https://github.com/username/project-alpha",
+        "Laravel Users Web" : "2222",
+        "Mobile App": "",
+        "Laravel API": ""
+    },
+    "description": "A mobile-first design system."
+  },
+  {
+    "id": 4,
+    "title": "Project Delta",
+    "info" : {
+        "Laravel Views Admin Panel": "https://github.com/username/project-alpha",
+        "Laravel Users Web" : "2222",
+        "Mobile App": "",
+        "Laravel API": ""
+    },
+    "description": "A blockchain-based ledger."
+  },
+  {
+    "id": 5,
+    "title": "Project Epsilon",
+    "info" : {
+        "Laravel Views Admin Panel": "https://github.com/username/project-alpha",
+        "Laravel Users Web" : "2222",
+        "Mobile App": "",
+        "Laravel API": ""
+    },
+    "description": "A VR experience."
+  },
+  {
+    "id": 6,
+    "title": "Project Zeta",
+    "info" : {
+        "Laravel Views Admin Panel": "https://github.com/username/project-alpha",
+        "Laravel Users Web" : "2222",
+        "Mobile App": "",
+        "Laravel API": ""
+    },
+    "description": "An IoT dashboard."
+  }
+
+]

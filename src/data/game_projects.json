@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Project Alpha",
+    "description": "A cool project about AI."
+  },
+  {
+    "id": 2,
+    "title": "Project Beta",
+    "description": "A web app for productivity."
+  },
+  {
+    "id": 3,
+    "title": "Project Gamma",
+    "description": "A mobile-first design system."
+  },
+  {
+    "id": 4,
+    "title": "Project Delta",
+    "description": "A blockchain-based ledger."
+  },
+  {
+    "id": 5,
+    "title": "Project Epsilon",
+    "description": "A VR experience."
+  },
+  {
+    "id": 6,
+    "title": "Project Zeta",
+    "description": "An IoT dashboard."
+  },
+  {
+    "id": 7,
+    "title": "Project Eta",
+    "description": "A chatbot assistant."
+  },
+  {
+    "id": 8,
+    "title": "Project Theta",
+    "description": "A game engine prototype."
+  },
+  {
+    "id": 9,
+    "title": "Project Iota",
+    "description": "A social media analyzer."
+  }
+]
