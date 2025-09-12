@@ -2,14 +2,24 @@
   {
     "id": 1,
     "title": "Ai Art Competition Project",
-    "status": "In Progress",
-    "info" : {
-        "Laravel Views Admin Panel": "https://github.com/username/project-alpha",
-        "Laravel Users Web" : "2222",
-        "Mobile App": "",
-        "Laravel API": ""
+    "description": "Ai generated images platform and community that gamifies photo sharing. people can upload their images, join themed challenges, and receive votes from other members. The platform works like a game — users earn points, ranks, and badges based on participation and how well their photos perform in competitions.",
+    "stack": [
+      "Laravel",
+      "VueJS",
+      "MySQL",
+      "TailwindCSS"
+    ],
+    "live" : {
+      "Admin Panel": "https://admin.av1.my.id",
+      "Users Web" : "https://av1.my.id",
+      "Mobile App": "https://play.google.com/store/apps/details?id=id.av1.app",
+      "Laravel API": "https://api.av1.my.id"
     },
-    "description": " et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleife"
+    "dev": {
+      "Admin Panel": "https://admin.av1.my.id",
+      "Users Web" : "https://av1.my.id",
+      "Laravel API": "https://api.av1.my.id"
+    }
   },
   {
     "id": 2,

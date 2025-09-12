@@ -32,6 +32,12 @@ input, button, textarea, select {
   background: #0e141e;
   padding: 10px 10px;
 }
+#Header > div {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 #Header * {
   color: white;
 }
@@ -47,19 +53,6 @@ input, button, textarea, select {
   background-color: black;
   margin: 0px 0 4px;
   transition: 0.4s;
-}
-
-.b2 a {
-  display: block;
-  position: relative;
-  margin: 0 10px;
-  text-decoration: none;
-}
-.b2 a div {
-  display: none;
-}
-.b2 a:hover div {
-  display: inline-block;
 }
 
 #nav {
@@ -87,24 +80,181 @@ input, button, textarea, select {
   color: rgb(255, 186, 146);
 }
 
-#ProjectPage {
-  background-color: #ffffff;
-  padding: 20px;
-  margin: 20px 0;
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
 }
-#ProjectPage * {
+
+.b2 {
+  display: flex;
+  position: relative;
+  margin-right: 50px;
+}
+.b2 a {
+  font-size: 22px;
+  position: relative;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.b2 a > div {
+  display: none;
+  top: 100%;
+  left: -60px;
+  position: absolute;
+  background-color: rgb(56, 33, 161);
+  border-radius: 50px;
+  padding: 2px 10px;
+}
+.b2 a:hover > div {
+  display: block;
+}
+
+#themeToggle {
+  position: absolute;
+  top: -5px;
+  right: -55px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#themeToggle:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(15deg);
+}
+
+.containerProjectsHeader {
+  background: linear-gradient(135deg, #4a6cf7, #6f42c1);
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.containerProjectsHeader > * {
+  color: #ffffff;
+}
+
+.ProjectPage > div {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.ProjectPage .containerProjectsHeader * {
+  color: white;
+}
+.ProjectPage * {
   color: black;
 }
 
+#ProjectPage h2 {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#ProjectPage > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Project-card {
+  width: 30.3%;
+  margin: 0 1.5% 20px;
+  padding: 14px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+.Project-card > h3 {
+  font-size: 24px;
+}
+.Project-card > p {
+  font-size: 12px;
+}
+.Project-card .progress-bar {
+  background: rgb(129, 160, 228);
+  height: 5px;
+  width: 100%;
+  margin: 4px 0;
+}
+.Project-card .server-title {
+  font-weight: 800;
+  margin: 10px 0 0px;
+}
+.Project-card .tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 10px 0;
+}
+.Project-card .tech-stack > div {
+  background: rgba(74, 108, 247, 0.1);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #4a6cf7;
+}
+
+#live-section .server-offline {
+  background-color: rgba(53, 220, 123, 0.1);
+  border-left: 3px #16a145 solid;
+  margin: 5px 0;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+#live-section .server-offline > i {
+  color: #16a145;
+}
+#live-section .server-offline > strong {
+  color: #16a145;
+}
+#live-section .server-offline > a {
+  color: #3c39eb;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+#live-section .server-offline:hover {
+  background-color: rgba(220, 53, 69, 0.2);
+  box-shadow: 0 2px 8px rgba(220, 53, 69, 0.3);
+}
+#live-section .server-offline:hover > a:hover {
+  color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 body {
-  background-color: #f0f1f8;
+  background-color: #f5f8ff;
   color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-}
-
-#root {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import '../assets/css/App.min.css'
+import '../assets/css/App.min.css';
 
 import Header from './Header'
 import Footer from './Footer'
@@ -9,7 +9,6 @@ import Footer from './Footer'
 import Projects from '../pages/Projects'
 import UpcomingProjects from '../pages/UpcomingProjects'
 import Background from '../pages/Background'
-import Skills from '../pages/Skills'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -21,7 +20,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/projects" element={<Projects />} />
           <Route path="/upcoming" element={<UpcomingProjects />} />
           <Route path="/background" element={<Background />} />
-          <Route path="/skills" element={<Skills />} />
 
         </Routes>
       <Footer />

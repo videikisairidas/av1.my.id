@@ -1,8 +1,109 @@
-#ProjectPage {
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 20px 0;
+.ProjectPage {
+    // background-color: #ffffff;
+    // padding: 20px;
+    // margin: 20px 0;
+    >div {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    };
+    .containerProjectsHeader {
+        * {
+            color: white;
+        }
+    }
     * {
         color: black;
+    }
+}
+#ProjectPage {
+    h2 {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    > div {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Project-card {
+    // flex-grow: 1;
+    // flex: 1 1 30%;
+    width: 30.3%;
+    margin: 0 1.5% 20px;
+    padding: 14px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    > h3 {
+        font-size: 24px;
+
+    }
+    > p {
+        font-size: 12px;
+    }
+    .progress-bar {
+        background: rgb(129, 160, 228);
+        height: 5px;
+        width: 100%;
+        margin: 4px 0;
+    }
+    .server-title {
+        font-weight: 800;
+        margin: 10px 0 0px;
+    }
+    .tech-stack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin: 10px 0;
+        > div {
+            background: rgba(74, 108, 247, 0.1);
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: #4a6cf7;
+        }   
+    }
+}
+#live-section .server-offline {
+    background-color: rgba(53, 220, 123, 0.1);
+    border-left: 3px #16a145 solid;
+    margin: 5px 0;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    > i {
+        color: #16a145;
+    }
+    > strong {
+        color: #16a145;
+    }
+    >a {
+        color: #3c39eb;
+        text-decoration: none;
+        font-weight: 800;
+    }
+}
+#live-section .server-offline:hover {
+    background-color: rgba(220, 53, 69, 0.2);
+    box-shadow: 0 2px 8px rgba(220, 53, 69, 0.3);
+    > a:hover {
+        color: red;
     }
 }

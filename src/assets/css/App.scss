@@ -1,20 +1,27 @@
-@import "./normalize/normalize.scss";
-@import "./variables.scss";
-@import "./header.scss";
-@import "./footer.scss";
-@import "./page/projects.scss";
-@import "./page/skills.scss";
+@use "./extra/normalize";
+@use "./extra/variables" as *;
+@use "./header";
+@use "./footer";
+@use "./page/projects";
+@use "./page/skills";
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
 
 body {
-    background-color: #f0f1f8;
+    background-color: #f5f8ff;
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
-#root {
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto;
-}
+// #root {
+//     width: 90%;
+//     max-width: 1000px;
+//     margin: 0 auto;
+// }
